@@ -1,0 +1,75 @@
+/* селектор {
+    свойство: значение;
+
+} */
+
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+.chapter {
+    color: #90EE90;
+}
+
+.text {
+    font-weight: 900;
+}
+
+#begin {
+    color: rgb(152, 11, 133);
+    font-weight: bold;
+
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    padding: 20px;
+   /*  border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px solid black;
+    margin: 20px;
+    
+
+}
+
+/* a {
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+} */
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+nav {
+    position: inherit;
+    right: 40px;
+    top: 50px;
+    
+}
+
+.example {
+    position: relative;
+   
+}
+
+.red {
+    position:relative;
+    width: 50vw;
+    height: 30vh;
+    background-color: red;
+    z-index: 4;
+}
